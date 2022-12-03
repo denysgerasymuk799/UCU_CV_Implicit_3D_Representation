@@ -1,8 +1,11 @@
 Pillow==9.3.0
 moderngl==5.7.3
-tensorflow
+tensorflow==2.5.0
+keras==2.5.0
+Keras-Preprocessing
 mesh_to_sdf
 requests
+trimesh
 matplotlib
 moviepy
 trimesh==3.17.1

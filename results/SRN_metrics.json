@@ -1,0 +1,32 @@
+{
+    "obj_0": {
+        "f1_near_surface": 0.53112,
+        "f1_random": 0.88574,
+        "avg_time_secs": 0.0046368815422058104,
+        "memory_usage": 0.05
+    },
+    "obj_1": {
+        "f1_near_surface": 0.5135,
+        "f1_random": 0.91324,
+        "avg_time_secs": 0.004388435214757919,
+        "memory_usage": 0.05
+    },
+    "obj_2": {
+        "f1_near_surface": 0.53504,
+        "f1_random": 0.9119,
+        "avg_time_secs": 0.004428273767232895,
+        "memory_usage": 0.05
+    },
+    "obj_3": {
+        "f1_near_surface": 0.50412,
+        "f1_random": 0.80038,
+        "avg_time_secs": 0.004445396882295609,
+        "memory_usage": 0.05
+    },
+    "obj_5": {
+        "f1_near_surface": 0.51892,
+        "f1_random": 0.86272,
+        "avg_time_secs": 0.004284402298927307,
+        "memory_usage": 0.05
+    }
+}

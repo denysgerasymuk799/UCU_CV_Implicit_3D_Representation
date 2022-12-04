@@ -18,12 +18,12 @@ def sample_sdf_random_points(mesh, number_of_points=500000, surface_point_method
                                                   sample_point_count,
                                                   calculate_normals=sign_method == 'normal' or return_gradients)
 
-    return generate_sdf_near_surface(surface_point_cloud, number_of_points, surface_point_method == 'scan', sign_method,
-                                     normal_sample_count, min_size, return_gradients)
+    return generate_sdf_random(surface_point_cloud, number_of_points, surface_point_method == 'scan', sign_method,
+                               normal_sample_count, min_size, return_gradients)
 
 
-def generate_sdf_near_surface(surface_point_cloud, number_of_points=500000, use_scans=True, sign_method='normal',
-                              normal_sample_count=11, min_size=0, return_gradients=False):
+def generate_sdf_random(surface_point_cloud, number_of_points=500000, use_scans=True, sign_method='normal',
+                        normal_sample_count=11, min_size=0, return_gradients=False):
     query_points = []
     unit_sphere_sample_count = number_of_points
     unit_sphere_points = sample_uniform_points_in_unit_sphere(unit_sphere_sample_count)
